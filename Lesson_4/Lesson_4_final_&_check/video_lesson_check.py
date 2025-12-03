@@ -27,3 +27,23 @@ print(f"mean A : {mean_age_B}\n median A : {median_age_B}\n mode A : {mode_B}\n 
 
 t_stat, p_value = stats.ttest_ind(df['City_A'], df['City_B'])
 print(t_stat, p_value)
+
+"""
+mean A : 39.81818181818182
+ median A : 43.0
+ mode A : 17
+ variance : 304.3636363636364
+ std : 17.446020645512156
+
+
+
+mean A : 35.54545454545455
+ median A : 37.0
+ mode A : 38
+ variance : 223.2727272727273
+ std : 14.94231331731226
+
+
+
+0.6169275374726553 0.5442423873688744
+"""
